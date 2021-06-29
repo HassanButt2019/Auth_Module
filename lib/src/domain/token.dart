@@ -1,7 +1,7 @@
 
 
 class Token{
-  final String? token;
-  Token({this.token});
+  final Token value;
+  const Token(this.value);
 
 }
