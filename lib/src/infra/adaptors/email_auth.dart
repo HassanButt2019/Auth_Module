@@ -1,12 +1,11 @@
 
 
-import 'dart:html';
 import 'package:async/async.dart';
 import 'package:auth/src/domain/auth_service_contract.dart';
 import 'package:auth/src/domain/credentials.dart';
 import 'package:auth/src/domain/signup_service_contract.dart';
 import 'package:auth/src/domain/token.dart';
-import 'package:auth/src/infra/api/auth_api.dart';
+import 'package:auth/src/infra/api/auth_api_contract.dart';
 import 'package:flutter/cupertino.dart';
 
 class EmailAuth implements IAuthService , ISignUpService{

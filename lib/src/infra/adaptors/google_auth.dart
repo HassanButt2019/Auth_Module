@@ -5,7 +5,7 @@ import 'package:async/src/result/result.dart';
 import 'package:auth/src/domain/auth_service_contract.dart';
 import 'package:auth/src/domain/credentials.dart';
 import 'package:auth/src/domain/token.dart';
-import 'package:auth/src/infra/api/auth_api.dart';
+import 'package:auth/src/infra/api/auth_api_contract.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class GoogleAuth implements IAuthService{
